@@ -1,0 +1,5 @@
+//'https://orielly.com'.toURL().text.eachLine { println it }
+
+//'https://orielly.com'.toURL().eachLine { println it }
+
+println 'https://orielly.com'.toURL().readLines()*.size()
